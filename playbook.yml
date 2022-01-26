@@ -22,8 +22,7 @@
     
    - name: pull image docker
      docker_image:
-       name: "{{ image }}"
-       tag: latest
+       name: mrfris89/web-apache:latest
        state: present
        force: yes       
        
