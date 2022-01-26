@@ -23,6 +23,9 @@
    - name: pull image docker
      docker_image:
        name: "{{ image }}"   
+       state: present
+       force: yes 
+       
        
    - name: run container
      docker_container:
