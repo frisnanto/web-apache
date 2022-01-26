@@ -23,6 +23,7 @@
    - name: pull image docker
      docker_image:
        name: "{{ image }}"
+       tag: latest
        state: present
        force: yes       
        
