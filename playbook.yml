@@ -22,9 +22,7 @@
     
    - name: pull image docker
      docker_image:
-       name: mrfris89/web-apache:latest
-       state: present
-       force: yes       
+       name: "{{ image }}"   
        
    - name: run container
      docker_container:
