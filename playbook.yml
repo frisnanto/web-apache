@@ -23,8 +23,7 @@
    - name: pull image docker
      docker_image:
        name: "{{ image }}"   
-       state: present
-       force: yes 
+       state: present 
        source: pull
        
        
