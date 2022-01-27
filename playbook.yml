@@ -24,8 +24,6 @@
      docker_image:
        name: "{{ image }}"   
        source: pull
-       state: absent
-       force: yes
        
        
    - name: run container
