@@ -35,3 +35,4 @@
         - 10000:80
       recreate: yes
       restart: yes
+      force_kill: yes
