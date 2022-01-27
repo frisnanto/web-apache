@@ -34,3 +34,4 @@
       published_ports:
         - 10000:80
       recreate: yes
+      restart: yes
